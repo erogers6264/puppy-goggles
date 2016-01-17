@@ -28,6 +28,7 @@ session = DBSession()
 # Write a load-balancing algorithm that can transfer puppies evenly throughout
 # all the shelters in the database.
 
+
 def registerPuppy(name, gender, dateOfBirth, picture,
 				  shelter_id, shelter, weight, profile, adopters):
 	pup = Puppy(self.name = name,
