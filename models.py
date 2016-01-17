@@ -20,7 +20,7 @@ associate_adopters_puppies = Table('association', Base.metadata,
 
 # Time to write the classes which will be mapped
 class Shelter(Base):
-	"""Dogooders in this world"""
+	"""Dogooders in this world!"""
 	__tablename__ = 'shelter'
 	id = Column(Integer, primary_key = True)
 	name = Column(String(80), nullable = False)
